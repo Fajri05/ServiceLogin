@@ -1,0 +1,17 @@
+cara pengetesan service crud table kategori
+
+insert :
+http://localhost/LoginService/crud_api.php?operasi=delete&id_kategori=10
+insert melalui body karena menggunakan POST
+
+view :
+http://localhost/LoginService/crud_api.php?operasi=view
+
+get_biodata_by_id :
+http://localhost/LoginService/crud_api.php?operasi=get_data_by_id&id_kategori=1
+
+update :
+http://localhost/LoginService/crud_api.php?operasi=update&id_kategori=13&nama_kategori=Informasi
+
+delete :
+http://localhost/LoginService/crud_api.php?operasi=delete&id_kategori=14
